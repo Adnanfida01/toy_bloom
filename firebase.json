@@ -1,0 +1,27 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "e-commerce-app-firbase",
+          "appId": "1:324495874811:android:ed71f1935dba345de5ee5e",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "e-commerce-app-firbase",
+          "configurations": {
+            "android": "1:324495874811:android:ed71f1935dba345de5ee5e",
+            "ios": "1:324495874811:ios:b8efc733106eb66ce5ee5e",
+            "web": "1:324495874811:web:e0150697c35f06d9e5ee5e"
+          }
+        }
+      }
+    }
+  },
+  "firestore": {
+    "rules": "firestore.rules",
+    "indexes": "firestore.indexes.json"
+  }
+}
